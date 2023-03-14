@@ -7,7 +7,7 @@ function generateName() {
   } else if (language === "sindhi") {
     names = ["behenien khe yahan", "Budhi muhandro", "Chud Budhi jo", "kakus", "lalli", "Marhain khe"];
   } else if (language === "hindi") {
-    names = ["Badirchand", "Chutiya", "Bhenchod", "Madarchod", "Bhosdike", "Lodu"];
+    names = ["Badirchand", "Chutiya", "Bhenchod", "Madarchod", "Bhosdike", "Lodu"," bhai ka tinda", " baap ki bhindi"," 6 baap ki aulad"];
   } else if (language === "bihari") {
     names = ["Badi larchat laika ho ji tum", "bhosri wali", "chhota chetan", "chutmuha", "gaar marao", "gadchat"];
   } else if (language === "bengali") {
