@@ -12,6 +12,8 @@ function generateName() {
     names = ["Badi larchat laika ho ji tum", "bhosri wali", "chhota chetan", "chutmuha", "gaar marao", "gadchat"];
   } else if (language === "bengali") {
     names = ["Shuorer Naati", "Kutni Mashi", "Gaaler oot gaal, fonder oot mejjan", "Bokachoda", "Maagi", "Bara"];
+  } else if (language === "punjabi") {
+    names = ["Pehn di chhikki","Pehn da deena","Pehncho","Mayeveya", "teri maa di fudi"];
   }
 
   const randomIndex = Math.floor(Math.random() * names.length);
