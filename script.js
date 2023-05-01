@@ -15,6 +15,9 @@ function generateName() {
   } else if (language === "punjabi") {
     names = ["Pehn di chhikki","Pehn da deena","Pehncho","Mayeveya", "teri maa di fudi"];
   }
+  else if (language === "Marathi") {
+    names = ["aai Zavli","Yed zavya","Yed Bhokichya","Jhattya", "Lavdya","BHosda chot"];
+  }
 
   const randomIndex = Math.floor(Math.random() * names.length);
   const randomName = names[randomIndex];
