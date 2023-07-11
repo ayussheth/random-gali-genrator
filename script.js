@@ -19,7 +19,7 @@ function generateName() {
   } else if (language == "bundelkhandi") {
     names = ["भुच्च", "Tore mo me lag jaaye lugharia", "Bandar ki Jaat", "Kaluta", "करिया", "Kutta ke Goo"];
   } else if (language == "sanskrit") {
-    names = ["वैशाखनन्दन​", "पापी", "लघुबुद्धि", "त्वम् मातृस्य निजि अंगम्", "याभ (Fuck)", "धूर्त", "वैश्यासुता"];
+    names = ["वैशाखनन्दन​ (Donkey)", "पापी", "लघुबुद्धि", "त्वम् मातृस्य निजि अंगम्", "याभ (Fuck)", "धूर्त", "वैश्यासुता (Son of a Wh0re)"];
   }
 
   const randomIndex = Math.floor(Math.random() * names.length);
