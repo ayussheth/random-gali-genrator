@@ -14,11 +14,12 @@ function generateName() {
     names = ["Shuorer Naati", "Kutni Mashi", "Gaaler oot gaal, fonder oot mejjan", "Bokachoda", "Maagi", "Bara"];
   } else if (language === "punjabi") {
     names = ["Pehn di chhikki","Pehn da deena","Pehncho","Mayeveya", "teri maa di fudi"];
-  }
-  else if (language === "Marathi") {
+  } else if (language === "Marathi") {
     names = ["aai Zavli","Yed zavya","Yed Bhokichya","Jhattya", "Lavdya","BHosda chot"];
+  } else if (language === "kannada") { 
+    names = ["Soole Magane" , "Boli magane" , "Nimmouna Hadaa" , "Bewarsi" , "Nimakan keyan", 
+    "Nayi keyan"]; 
   }
-
   const randomIndex = Math.floor(Math.random() * names.length);
   const randomName = names[randomIndex];
 

@@ -5,13 +5,12 @@
     <title>GALL-E Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Source+Sans+Pro&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1>GALL-E</h1>
     <div class="container">
-    
       <form>
         <label for="language">Choose a Language:</label>
         <br>
@@ -23,17 +22,19 @@
           <option value="bihari">Bihari</option>
           <option value="bengali">Bengali</option>
           <option value="Marathi">Marathi</option>
+          <!-- Add Kannada as an option -->
+          <option value="kannada">Kannada</option>
         </select>
         <br>
         <button type="button" onclick="generateName()">Generate Gali</button>
       </form>
       <br>
-      <BR>
+      <br>
       <div id="result"></div>
     </div>
-      <div class="image-container">
-        <img id="lang-image" src="image.png" alt="Language Image">
-      </div>
+    <div class="image-container">
+      <img id="lang-image" src="image.png" alt="Language Image">
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
